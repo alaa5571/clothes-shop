@@ -1,0 +1,645 @@
+
+.animated{
+    animation-duration: 3s !important
+}
+
+/*==============General=============*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #333;
+    color: #888;
+    background-color: azure
+}
+*{
+  transition: all .5s
+}
+img{
+    width: 100%;
+    height: auto;}
+
+.img{
+    width: 100%;
+    height: auto;
+    opacity: .7;
+    transition: opacity 2s, transform 1s !important;
+}
+.img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05,1.05) !important
+}
+
+.margintop{
+    margin-top: 50px
+}
+.margint{
+    margin-top: 30px
+}
+.paddingtop{
+    padding-top: 40px
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+*{
+    text-transform: capitalize
+}
+
+a{
+    text-decoration: none !important
+}
+a:hover{
+    text-decoration: none !important
+}
+
+.line{
+    height: 3px;
+    width: 30px;
+    background: #03a9f4 !important;
+    position: absolute;
+    left: 48.5%;
+    margin-top: 7px
+}
+
+.mar0{
+    margin-top:-50px 
+}
+
+.paddingtop3{padding-top: 100px}
+.paddingtop4{padding-top: 70px}
+
+.bggrey{
+    background: #eee;
+    
+}
+
+.bgourwork{
+    margin: -0px;
+    padding-bottom: 10px;
+    
+}
+
+
+.btn-scroll{
+    position: fixed;
+    right:15px;
+    bottom:30px;
+    background-color:#03a9f4;
+    color:white;
+    border:none;
+    transition: background 1s;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1
+}
+.btn-scroll:hover{
+    background: #01579b
+}
+
+
+
+.readmoreA{
+    color: aliceblue;
+    font-size: 13px;  !important;
+    border: 1.5px solid #03a9f4;
+    padding: 0px 5px;
+    background: #03a9f4;
+    padding: 10px 5px;
+    font-weight: bold;
+    border-radius: 5px
+}
+
+.readmoreA:hover{
+    color:#03a9f4 !important;
+    font-weight: bold;
+    background: white;
+}
+.readmoreA:active{
+    font-weight: bold; 
+    background: #03a9f4;
+    color: aliceblue !important
+}
+
+
+
+p{
+    font-family: 'Roboto', sans-serif !important;
+      font-size: 17px
+}
+.glyphicon{
+     color: #4fc3f7  !important;
+  
+}
+
+h2, h3, h5, h6{
+    font-weight: bold !important;
+     color:#03a9f4 !important;
+}
+
+h2,h5{
+   color:#03a9f4 !important;
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 2px
+}
+
+h4{
+    font-weight: bold !important;
+}
+
+h3{
+    letter-spacing: 1px
+}
+
+img{
+    cursor: pointer
+}
+
+/*==============carousel=============*/
+.carousel-inner img {
+     
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+.btnstart{
+    font-size:22px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 15px;
+    background: #03a9f4 !important;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: opacity 1s
+}
+.btnstart:hover{
+    color: aliceblue!important;
+    font-size: 22px;
+    font-weight: bold;
+    opacity: .7
+}
+
+.carsa{
+    width: 0px !important;
+}
+
+.btnl{
+    
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    font-size: 35px
+}
+.btnr{
+   
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    font-size: 35px
+}
+
+
+.indic  li{
+    color: aqua!important;
+    background: #000 !important;
+    padding-left: px !important;
+    border: none  !important;
+    height:  px !important;
+    position: relative;
+    top: 25px;
+    transition: background 1s
+    
+}
+
+.indic li:hover{
+    background: #333
+}
+.carousel-caption{
+    position: relative;
+    top:40%;
+    
+}
+.carousel-caption h3{
+    font-size: 50px !important
+}
+
+.carousel-caption p{
+    font-size: 20px !important
+}
+
+.btn1 a{
+    color: aliceblue !important
+}
+/*==============sec 1 (what we do)=============*/
+
+.sec1tx{
+    background: #fafafa;
+    padding: 20px
+}
+
+.sec2tx{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px
+}
+
+/*==============sec 3 (About us)=============*/
+
+
+
+
+
+.sec3h{
+    position: relative;
+    top:-15px;
+    margin-bottom: 50px
+}
+
+.sec3tx{
+  
+    margin-left:  60px;
+    margin-top: -20px
+    
+}
+
+.iheart{
+   
+    position: relative;
+    top: -91px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 1s !important;
+}
+
+@media only screen and (max-width: 450px){
+    .iheart {
+         position: relative
+    top: -119px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 1s !important;
+    }
+}
+
+
+
+.glyphicon:hover{
+    color: #03a9f4 !important
+}
+
+.art1btn{
+    margin:0px 25px 10px 10px;
+    text-align: center;
+    border-radius: 100px;
+    background-color:#00bcd4;
+    cursor: pointer;
+    padding: 10px 0px;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: bold;
+    transition: background 1s
+    
+}
+
+.art1btn:hover{
+    background: #00838f;
+   
+}
+.art1btn:active {
+  background-color: #006064 ;
+  box-shadow: 0 5px #666;
+  transform: translatey(0px);
+}
+
+.art1btn a{
+     color: aliceblue !important;
+    width: 20%
+}
+
+
+/*=====================Gallary====================*/
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+   
+    float: left;
+    width: 24.99999%;position: relative;
+    display: none;
+    
+  
+}
+
+
+
+.responsive img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333;
+  transition: opacity 2s;
+    cursor: pointer
+}
+
+.respon:hover .overlay {
+  opacity: .9;
+}
+
+.text1 a{
+  color: aliceblue !important;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+    margin-left: 10px;
+    margin-left: 10px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    opacity: .7
+}
+
+
+
+
+.btnflow{
+   position: absolute;
+    left: 43%;
+    top:  50%;
+    background: #03a9f4;
+    color: aliceblue;
+    border-color: #03a9f4;
+    border: none;
+    transition: transform .5s !important;
+    padding: 5px;
+    border-radius: 5px
+}
+
+
+.btnflow:hover{
+     transform: scale(1.2,1.2);
+    background: white;
+    color: #03a9f4;
+    border: none !important
+}
+
+.btnflow:active{
+    background:  #03a9f4;
+    color:white;
+    border: none !important
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*************video********/
+
+.paddingtop1{
+    margin: 90px 0px
+}
+
+.art3tx{
+   margin: 50px 0px
+}
+
+/*************nav and footer***********/
+
+.navbar-brand{
+    position: relative;
+    top: 7px;
+    font-style: italic;
+    font-family: serif;
+    color: #fff !important
+}
+
+.navbar-brand:hover {
+  color: #fff !important
+}
+
+.navbar {
+  background: #111  !important;
+  border: none !important;
+  height: 60px
+}
+.navbar a{
+    transition:  color 1s, background 1s !important;
+    color: #fff !important;
+    font-size: 18px
+}
+
+.nav {
+  position: relative;
+  top: 5px
+}
+ 
+.nav a:hover, .nav a:focus{
+    background: #2196f3!important
+}
+
+
+.menu-a{
+    background:#333!important
+}
+
+.menu-a li a:hover{
+    background:#000  !important;
+    color: #999
+}
+
+
+.btn{
+    transition: background 1s !important;
+} 
+
+.fon a{
+    color: aliceblue !important;
+    opacity: .5;
+    transition: opacity 1s;
+    
+}
+
+.fon a:hover{
+    opacity: 1
+}
+
+.face {
+  padding: 6px 0px 6px 5px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.face {
+  background:#111 ;
+  color: white;
+  transition: background 1s
+}
+
+.face:hover{
+
+   color: white !important;
+   background: #3B5998 !important;
+   }
+.fa-linkedin {
+     color: white;
+     transition: color 1s;
+      padding: 6px 15px 6px 6px;
+     font-size: 30px;
+     width: 35px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 5px;
+     margin-top: 8px;
+      transition: background 1s;
+     background: #111;
+   
+}
+.fa-linkedin:hover{
+    color: white !important;
+     background: #0077B5;
+    
+}
+
+.slidetx{
+    padding: 20px 10px 
+}
+
+.lioffset{
+ margin-right:-75px
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background:#212121 ;
+  padding: 2px 7px;
+  color: ;
+  cursor: pointer;
+  font-size: 25px;
+  -webkit-animation: mymove .5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove .5s infinite;
+    width: 30px;
+    height: 30px
+}
+#myBtn {-webkit-animation-timing-function: linear;}
+#myBtn:hover {
+  background-color: #333;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {bottom: 20px;}
+    to {bottom: 23px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+     from {bottom: 20px;}
+    to {bottom: 23px;}
+}
+
+/*--------------------DARK AND LIGHT BUTTON-----*/
+
+#myBtnn {
+  
+  position: fixed;
+  bottom: 20px;
+  cursor: pointer;
+  -webkit-animation: mymove .5s infinite;
+  animation: mymove .5s infinite;
+    background: #333;
+    border: 1px solid #000
+    
+}
+#myBtnn {-webkit-animation-timing-function: linear;}
+
+#myBtnn a{
+    color: aliceblue
+}
+
+#myBtnn a:hover {
+ text-decoration: none;
+    color: antiquewhite;
+}
+#myBtnn:hover{
+    background: #444;
+    
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {bottom: 20px;}
+    to {bottom: 21px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+     from {bottom: 20px;}
+    to {bottom: 21px;}
+}
+
+#call{
+    height: auto!important;
+    background:#333;
+}
